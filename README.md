@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-브라우저에서 [http://localhost:3000](http://localhost:3000)을 엽니다.
+실행 후 터미널에 표시된 주소를 브라우저에서 엽니다.
 
 ## 주요 문서
 
