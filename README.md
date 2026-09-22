@@ -19,6 +19,20 @@ npm run dev
 - `AGENTS.md`: Agent가 작업할 때 따르는 기본 원칙입니다.
 - `tests/`: 자동화된 검증을 관리합니다.
 
+## 폴더 구조
+
+```text
+├── app/                 화면과 페이지
+├── lib/saju/            사주 계산 기능
+├── docs/
+│   ├── PRD.md           제품 목표와 범위
+│   ├── status.md        Spec별 진행 상태
+│   └── specs/           기능별 요구사항
+├── tests/               자동 Test
+├── .agents/skills/      반복 작업 Skill
+└── AGENTS.md            Agent 작업 원칙
+```
+
 이 프로젝트의 AGENTS.md, PRD, Specs, Tests, Status, Skill과 작업 환경을 조합해 Agent가 안정적으로 작업할 수 있는 Harness를 만들어갑니다.
 
 ## 작업 흐름
